@@ -7,11 +7,15 @@ export const mentors = [
     availability: true,
     intro:
       "Hi I am here to be one of the mentors. If the styled target is a simple element (e.g. styled.div), styled-components passes through any known HTML attribute to the DOM. If it is a custom React component (e.g. styled(MyComponent)), styled-components passes through all props.",
-    skills: ["React", "HTML", "CSS", "JS"],
-    contactDetails: {
-      phone: "01765556667",
-      email: "joe.doe@gmail.com"
-    }
+    tags: ["React", "HTML", "CSS", "JS"],
+    contactDetails: [
+      {
+        phone: "01765556667"
+      },
+      {
+        email: "joe.doe@gmail.com"
+      }
+    ]
   },
   {
     name: "Emma",
@@ -21,11 +25,13 @@ export const mentors = [
     availability: false,
     intro:
       "Hi I am Emma. Scroll and resize events are tricky because they can be fired more than a dozen times in less than a second, that’s why the component comes with throttle by default.",
-    skills: ["Python", "Flask", "Django", "JS"],
-    contactDetails: {
-      phone: "017655009090",
-      email: "emma.swift@gmail.com"
-    }
+    tags: ["Python", "Flask", "Django", "JS"],
+    contactDetails: [
+      {
+        phone: "017655009090"
+      },
+      { email: "emma.swift@gmail.com" }
+    ]
   },
   {
     name: "Nicola",
@@ -35,10 +41,14 @@ export const mentors = [
     availability: true,
     intro:
       "Hi I am Nicola. This example shows how all props of the Input component are passed on to the DOM node that is mounted, as with React elements.",
-    skills: ["Python", "Flask", "Django", "JS"],
-    contactDetails: {
-      phone: "01767666880",
-      email: "nicola.tesla@gmail.com"
-    }
+    tags: ["Python", "Flask", "Django", "JS"],
+    contactDetails: [
+      {
+        phone: "01767666880"
+      },
+      {
+        email: "nicola.tesla@gmail.com"
+      }
+    ]
   }
 ];
